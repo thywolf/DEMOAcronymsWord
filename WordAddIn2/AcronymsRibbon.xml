@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns">
+        <group id="MyGroup"
+               label="My Group">
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+  <contextMenus>
+    <contextMenu idMso="ContextMenuText">
+      <menu id="MySubMenu" imageMso="MacroDefault" label="DEMO Acronyms" >
+        <button id="Proposal1" getVisible="EnableControl" getLabel="GetYourLabelText" onAction="YourUniqueId_Click"/>
+        <button id="Proposal2" getVisible="EnableControl" getLabel="GetYourLabelText" onAction="YourUniqueId_Click"/>
+        <button id="Proposal3" getVisible="EnableControl" getLabel="GetYourLabelText" onAction="YourUniqueId_Click"/>
+        <button id="Proposal4" getVisible="EnableControl" getLabel="GetYourLabelText" onAction="YourUniqueId_Click"/>
+        <button id="Proposal5" getVisible="EnableControl" getLabel="GetYourLabelText" onAction="YourUniqueId_Click"/>
+        <menuSeparator  id="MySeparator1" />
+        <button id="MyButton7" imageMso="MacroDefault" label="Find more..." onAction="OpenTaskPane_Click"/>
+      </menu>
+    </contextMenu>
+    <contextMenu idMso="ContextMenuSpell">
+      <menu id="MySubMenuSpell" imageMso="MacroDefault" label="DEMO Acronyms" >
+        <button id="ProposalSpell1" getVisible="EnableControl" getLabel="GetYourLabelText" onAction="YourUniqueId_Click"/>
+        <button id="ProposalSpell2" getVisible="EnableControl" getLabel="GetYourLabelText" onAction="YourUniqueId_Click"/>
+        <button id="ProposalSpell3" getVisible="EnableControl" getLabel="GetYourLabelText" onAction="YourUniqueId_Click"/>
+        <button id="ProposalSpell4" getVisible="EnableControl" getLabel="GetYourLabelText" onAction="YourUniqueId_Click"/>
+        <button id="ProposalSpell5" getVisible="EnableControl" getLabel="GetYourLabelText" onAction="YourUniqueId_Click"/>
+        <menuSeparator  id="MySeparator1Spell" />
+        <button id="MyButton7Spell" imageMso="MacroDefault" label="Find more..." onAction="OpenTaskPane_Click"/>
+      </menu>
+    </contextMenu>
+  </contextMenus>
+</customUI>
+
